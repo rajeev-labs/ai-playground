@@ -2,11 +2,13 @@
 
 Exploring practical AI use cases for real-world workflows.
 
-## Areas
-- LLM APIs
-- Automation
-- Data extraction
-- Workflow optimization
+## What this does
+This repo contains small AI experiments focused on summarization, automation, and workflow support.
 
-## Goal
-Build small, usable tools — not demos.
+## Current example
+- Summarize a construction project status update into concise bullet points
+
+## How to run
+```bash
+pip install -r requirements.txt
+python project_status_summarizer.py
